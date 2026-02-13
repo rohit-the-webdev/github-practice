@@ -6,6 +6,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [data, setData] = useState("");
+  const [user, setUser] = useState("");
+  
 
   return (
     <>
